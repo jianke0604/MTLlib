@@ -1,8 +1,8 @@
 # [CVPR’25] PIVRG & ConsMTL
 
 The official implementation of our CVPR 2025 papers:  
-- [Revisiting Fairness in Multitask Learning: A Performance-Driven Approach for Variance Reduction](#)  
-- [Towards Consistent Multi-Task Learning: Unlocking the Potential of Task-Specific Parameters](#)  
+- [Revisiting Fairness in Multitask Learning: A Performance-Driven Approach for Variance Reduction](https://openaccess.thecvf.com/content/CVPR2025/papers/Qin_Revisiting_Fairness_in_Multitask_Learning_A_Performance-Driven_Approach_for_Variance_CVPR_2025_paper.pdf)  
+- [Towards Consistent Multi-Task Learning: Unlocking the Potential of Task-Specific Parameters](https://openaccess.thecvf.com/content/CVPR2025/papers/Qin_Towards_Consistent_Multi-Task_Learning_Unlocking_the_Potential_of_Task-Specific_Parameters_CVPR_2025_paper.pdf)  
 
 The former highlights the strong positive correlation between cross-task performance variance and average benchmark performance in MTL methods.
 The latter leverages the optimization of both shared and task-specific parameters to consistently alleviate gradient conflicts.
@@ -83,7 +83,26 @@ We emphasize that quantitative performance represents only one aspect of MTL met
 This codebase is built upon [FairGrad](https://github.com/OptMN-Lab/fairgrad). We sincerely thank the authors for their efforts and contributions.
 
 ## Citation
-If you find this repository helpful, please consider citing our papers (the camera ready version will be released soon) as well as the following important early works:
+If you find this repository helpful, please consider citing our papers:
+```bibtex
+@inproceedings{qin2025towards,
+  title={Towards Consistent Multi-Task Learning: Unlocking the Potential of Task-Specific Parameters},
+  author={Qin, Xiaohan and Wang, Xiaoxing and Yan, Junchi},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={10067--10076},
+  year={2025}
+},
+
+@inproceedings{qin2025revisiting,
+  title={Revisiting Fairness in Multitask Learning: A Performance-Driven Approach for Variance Reduction},
+  author={Qin, Xiaohan and Wang, Xiaoxing and Yan, Junchi},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={20492--20501},
+  year={2025}
+}
+```
+
+We also recommend that you pay attention to the following important early works:
 ```bibtex
 @inproceedings{ban2024fair,
   title={Fair resource allocation in multi-task learning},
