@@ -2,7 +2,7 @@ mkdir -p ./save
 mkdir -p ./trainlogs
 
 
-export PYTHONPATH=$PYTHONPATH:/mnt/nas-new/home/qinxiaohan/MTLlib
+export PYTHONPATH=$PYTHONPATH:YOUR_PYTHON_PATH
 export CUDA_VISIBLE_DEVICES=0
 
 method=pivrg
